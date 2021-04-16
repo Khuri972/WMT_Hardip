@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WMT Hardip</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="please_wait">Please wait...</string>
+    <string name="no_internet">No internet available. Try again</string>
+    <string name="message_title">WMT Hardip</string>
+
+    <string name="alert_yes">YES</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_no">NO</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

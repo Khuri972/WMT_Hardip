@@ -1,0 +1,80 @@
+<resources>
+
+    <style name="Widget.Theme.DaggerDemo.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.DaggerDemo.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+     <!--MEDIUM-->
+
+    <style name="MediumText">
+        <item name="android:paddingTop">@dimen/_2sdp</item>
+        <item name="android:paddingBottom">@dimen/_2sdp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="fontPath">fonts/Muli-Reg.ttf</item>
+    </style>
+
+    <style name="MediumTextBold" parent="MediumText">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="fontPath">fonts/Muli-Bold.ttf</item>
+    </style>
+
+    <style name="MediumTextBoldWhite" parent="MediumTextBold">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="MediumTextLight" parent="MediumText">
+        <item name="android:textColor">@color/colorGrayDark</item>
+    </style>
+
+    <style name="MediumTextWhite" parent="MediumText">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="MediumTextRed" parent="MediumText">
+        <item name="android:textColor">@color/colorRed</item>
+    </style>
+
+    <!--END MEDIUM-->
+
+    <!--SMALL-->
+    <style name="SmallText">
+        <item name="android:paddingTop">@dimen/_2sdp</item>
+        <item name="android:paddingBottom">@dimen/_2sdp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="fontPath">fonts/Muli-Reg.ttf</item>
+    </style>
+
+    <style name="SmallTextBold" parent="SmallText">
+        <item name="fontPath">fonts/Muli-Bold.ttf</item>
+    </style>
+
+    <style name="SmallTextLight" parent="SmallText">
+        <item name="android:textColor">@color/colorGrayDark</item>
+    </style>
+
+    <style name="SmallTextWhite" parent="SmallText">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="SmallTextRed" parent="SmallText">
+        <item name="android:textColor">@color/colorRed</item>
+    </style>
+
+    <!--END SMALL-->
+</resources>
